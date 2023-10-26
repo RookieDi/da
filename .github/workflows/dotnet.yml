@@ -27,5 +27,5 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
       - name: Run .NET Application
-  run: dotnet run --project YourProjectName/YourProject.csproj # Replace with your project path and name
+  run: dotnet run --project PartyInvites/PartyInvites.csproj # Replace with your project path and name
 
