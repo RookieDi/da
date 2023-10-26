@@ -26,3 +26,6 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+      - name: Run .NET Application
+  run: dotnet run --project YourProjectName/YourProject.csproj # Replace with your project path and name
+
